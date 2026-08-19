@@ -26,7 +26,7 @@ public class ToDoList {
     Scanner ler = new Scanner(System.in);
 
         System.out.print("Qual quer acessar: ");
-        // 3. Lê uma linha inteira de texto
+        
         int acesso = ler.nextInt();
         switch (acesso) {
             case 1:
